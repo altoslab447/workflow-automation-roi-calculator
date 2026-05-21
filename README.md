@@ -21,6 +21,16 @@ AI automations are easy to overbuild. This tool gives founders and operators a
 quick way to decide whether a repeated workflow has enough measurable payback
 to justify a pilot.
 
+## Live Demo
+
+https://altoslab447.github.io/ai-agent-roi-calculator/
+
+## Request A Workflow Audit
+
+Open an issue with the workflow you want reviewed:
+
+https://github.com/altoslab447/ai-agent-roi-calculator/issues/new
+
 ## Local Preview
 
 ```bash

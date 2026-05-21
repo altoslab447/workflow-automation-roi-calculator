@@ -1,0 +1,55 @@
+name: Workflow audit request
+description: Request a review of a workflow that may be worth automating.
+title: "[Workflow Audit] "
+labels:
+  - workflow-audit
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share only non-sensitive workflow details. Do not include passwords, API keys, private keys, seed phrases, customer data, or regulated personal data.
+  - type: input
+    id: workflow
+    attributes:
+      label: Workflow to review
+      description: What repeated workflow are you considering automating?
+      placeholder: Example: qualify inbound leads from forms and route them to CRM.
+    validations:
+      required: true
+  - type: input
+    id: weekly_volume
+    attributes:
+      label: Weekly task volume
+      placeholder: Example: 80 tasks/week
+    validations:
+      required: true
+  - type: input
+    id: manual_time
+    attributes:
+      label: Manual time per task
+      placeholder: Example: 12 minutes/task
+    validations:
+      required: true
+  - type: textarea
+    id: tools
+    attributes:
+      label: Tools involved
+      description: List the systems involved without sharing credentials.
+      placeholder: Example: Airtable, HubSpot, Gmail, Slack, Google Sheets
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risk and review needs
+      description: What needs human review, approval, or special care?
+      placeholder: Example: pricing decisions need human approval before sending.
+    validations:
+      required: true
+  - type: input
+    id: payback
+    attributes:
+      label: Target payback period
+      placeholder: Example: 1-3 months
+    validations:
+      required: false
