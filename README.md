@@ -23,13 +23,13 @@ justify a pilot.
 
 ## Live Demo
 
-https://altoslab447.github.io/ai-agent-roi-calculator/
+https://altoslab447.github.io/workflow-automation-roi-calculator/
 
 ## Request A Workflow Audit
 
 Open an issue with the workflow you want reviewed:
 
-https://github.com/altoslab447/ai-agent-roi-calculator/issues/new
+https://github.com/altoslab447/workflow-automation-roi-calculator/issues/new
 
 ## Local Preview
 
