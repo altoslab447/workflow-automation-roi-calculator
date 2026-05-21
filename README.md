@@ -1,14 +1,14 @@
-# AI Agent Cost And ROI Calculator
+# Workflow Automation ROI Calculator
 
-A browser-only planning tool from Altos Lab for estimating whether an AI
-workflow automation sprint is worth exploring.
+A browser-only planning tool from Altos Lab for estimating whether a workflow
+automation sprint is worth exploring.
 
 The calculator estimates:
 
 - gross labor savings,
 - human review cost,
 - rework buffer,
-- AI operating cost,
+- automation operating cost,
 - net monthly savings,
 - breakeven build budget.
 
@@ -17,9 +17,9 @@ cookies, no wallet connection, and no analytics script in this version.
 
 ## Why This Exists
 
-AI automations are easy to overbuild. This tool gives founders and operators a
-quick way to decide whether a repeated workflow has enough measurable payback
-to justify a pilot.
+Automations are easy to overbuild. This tool gives founders and operators a
+quick way to decide whether a repeated workflow has enough measurable payback to
+justify a pilot.
 
 ## Live Demo
 
@@ -52,4 +52,5 @@ http://127.0.0.1:8787/index.html
 
 ## Studio
 
-Built by Altos Lab, an AI automation and product engineering studio.
+Built by Altos Lab, a product engineering studio for automation, internal
+tools, and practical web products.

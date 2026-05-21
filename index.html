@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AI Agent Cost And ROI Calculator</title>
+    <title>Workflow Automation ROI Calculator</title>
     <meta
       name="description"
-      content="Estimate monthly savings, review cost, AI operating cost, and breakeven budget for an AI workflow automation sprint."
+      content="Estimate monthly savings, review cost, operating cost, and breakeven budget for a workflow automation sprint."
     />
     <style>
       :root {
@@ -422,8 +422,8 @@
       <header>
         <nav class="nav" aria-label="Primary">
           <div class="brand">
-            <span class="mark" aria-hidden="true">AI</span>
-            <span>Agent ROI Calculator</span>
+            <span class="mark" aria-hidden="true">ROI</span>
+            <span>Workflow ROI</span>
           </div>
           <div class="navlinks">
             <a href="about.html">About</a>
@@ -436,9 +436,9 @@
       <main>
         <section class="intro" aria-labelledby="page-title">
           <div>
-            <h1 id="page-title">Estimate whether an AI agent is worth building.</h1>
+            <h1 id="page-title">Estimate whether a workflow is worth automating.</h1>
             <p class="lead">
-              Model the labor saved, review cost, AI operating cost, and breakeven
+              Model the labor saved, review cost, operating cost, and breakeven
               budget for a workflow automation sprint before you commit engineering time.
             </p>
           </div>
@@ -448,7 +448,7 @@
           </aside>
         </section>
 
-        <section class="tool" aria-label="AI workflow ROI calculator">
+        <section class="tool" aria-label="Workflow automation ROI calculator">
           <form class="panel form-panel" id="roiForm" novalidate>
             <h2 class="section-title">Workflow assumptions</h2>
             <div class="grid">
@@ -470,17 +470,17 @@
               <div class="field">
                 <label for="automationPercent">Automation rate, percent</label>
                 <input id="automationPercent" type="number" min="0" max="100" step="1" value="70" />
-                <p class="hint" id="automationPercentHint">Expected portion handled by AI.</p>
+                <p class="hint" id="automationPercentHint">Expected portion handled by automation.</p>
               </div>
               <div class="field">
-                <label for="aiCost">AI operating cost per month, USD</label>
+                <label for="aiCost">Operating cost per month, USD</label>
                 <input id="aiCost" type="number" min="0" step="1" value="25" />
                 <p class="hint" id="aiCostHint">Model, hosting, automation, or API cost.</p>
               </div>
               <div class="field">
                 <label for="reviewRate">Human review rate, percent</label>
                 <input id="reviewRate" type="number" min="0" max="100" step="1" value="15" />
-                <p class="hint" id="reviewRateHint">Share of AI-saved time reviewed by a person.</p>
+                <p class="hint" id="reviewRateHint">Share of automated time reviewed by a person.</p>
               </div>
               <div class="field">
                 <label for="reworkRate">Rework buffer, percent</label>
@@ -513,7 +513,7 @@
               <div class="row"><span>Gross labor savings</span><strong id="grossSavings">$1,825</strong></div>
               <div class="row"><span>Review cost</span><strong id="reviewCost">$274</strong></div>
               <div class="row"><span>Rework buffer</span><strong id="reworkCost">$182</strong></div>
-              <div class="row"><span>AI operating cost</span><strong id="aiCostOut">$25</strong></div>
+              <div class="row"><span>Operating cost</span><strong id="aiCostOut">$25</strong></div>
               <div class="row"><span>Breakeven build budget</span><strong id="breakeven">$4,031</strong></div>
             </div>
             <p class="recommendation" id="recommendation">
@@ -533,7 +533,7 @@
           <article class="note">
             <h2>When this works</h2>
             <p>
-              AI agents are most useful for repeated, rule-heavy workflows where a
+              Automation is most useful for repeated, rule-heavy workflows where a
               human can review exceptions instead of doing every step manually.
             </p>
           </article>
@@ -556,7 +556,7 @@
 
       <footer>
         <div class="foot">
-          <span>AI Agent Cost And ROI Calculator</span>
+          <span>Workflow Automation ROI Calculator</span>
           <span>Estimates only. No financial advice. No data stored.</span>
         </div>
       </footer>
